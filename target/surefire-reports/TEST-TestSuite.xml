@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="15" failures="2" name="TestSuite" time="246.65" errors="0" skipped="13">
+  <properties>
+    <property name="idea.version" value="2022.2.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.7+8-LTS-224"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\iresh\Documents\TestAutomationDemo-main (1)\TestAutomationDemo-main"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\iresh\Documents\TestAutomationDemo-main (1)\TestAutomationDemo-main"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17.0.7+8-LTS-224"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\iresh\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\iresh\AppData\Local\Microsoft\WindowsApps;;C:\Users\iresh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\iresh\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.2\bin;C:\Program Files\Microsoft Office\root\Client;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.2\plugins\maven\lib\maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\iresh"/>
+    <property name="user.timezone" value="Asia/Colombo"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="iresh"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2.2 test install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.7"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.automationdemo.testcases.HomePageTest" name="seup" time="14.699">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 111
+Current browser version is 114.0.5735.199 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-GICMTQO&apos;, ip: &apos;192.168.8.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	(No symbol) [0x003EDCE3]
+	(No symbol) [0x003839D1]
+	(No symbol) [0x00294DA8]
+	(No symbol) [0x002B4F6C]
+	(No symbol) [0x002B0D11]
+	(No symbol) [0x002AED19]
+	(No symbol) [0x002E15AE]
+	(No symbol) [0x002E129C]
+	(No symbol) [0x002DACC6]
+	(No symbol) [0x002B6F68]
+	(No symbol) [0x002B80CD]
+	GetHandleVerifier [0x00663832+2506274]
+	GetHandleVerifier [0x00699794+2727300]
+	GetHandleVerifier [0x0069E36C+2746716]
+	GetHandleVerifier [0x00496690+617600]
+	(No symbol) [0x0038C712]
+	(No symbol) [0x00391FF8]
+	(No symbol) [0x003920DB]
+	(No symbol) [0x0039C63B]
+	BaseThreadInitThunk [0x750300C9+25]
+	RtlGetAppContainerNamedObjectPath [0x771D7B4E+286]
+	RtlGetAppContainerNamedObjectPath [0x771D7B1E+238]
+" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 111
+Current browser version is 114.0.5735.199 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-GICMTQO&apos;, ip: &apos;192.168.8.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	(No symbol) [0x003EDCE3]
+	(No symbol) [0x003839D1]
+	(No symbol) [0x00294DA8]
+	(No symbol) [0x002B4F6C]
+	(No symbol) [0x002B0D11]
+	(No symbol) [0x002AED19]
+	(No symbol) [0x002E15AE]
+	(No symbol) [0x002E129C]
+	(No symbol) [0x002DACC6]
+	(No symbol) [0x002B6F68]
+	(No symbol) [0x002B80CD]
+	GetHandleVerifier [0x00663832+2506274]
+	GetHandleVerifier [0x00699794+2727300]
+	GetHandleVerifier [0x0069E36C+2746716]
+	GetHandleVerifier [0x00496690+617600]
+	(No symbol) [0x0038C712]
+	(No symbol) [0x00391FF8]
+	(No symbol) [0x003920DB]
+	(No symbol) [0x0039C63B]
+	BaseThreadInitThunk [0x750300C9+25]
+	RtlGetAppContainerNamedObjectPath [0x771D7B4E+286]
+	RtlGetAppContainerNamedObjectPath [0x771D7B1E+238]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.automationdemo.base.TestBase.initialization(TestBase.java:45)
+	at com.automationdemo.testcases.HomePageTest.seup(HomePageTest.java:26)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@5f150435
+</system-out>
+    <system-err>Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 39837
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+</system-err>
+  </testcase>
+  <testcase classname="com.automationdemo.testcases.HomePageTest" name="homePageLogoTest" time="14.701">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.automationdemo.testcases.HomePageTest" name="tearDown" time="14.702">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.automationdemo.testcases.LogonPageTest" name="seup" time="15.799">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 111
+Current browser version is 114.0.5735.199 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-GICMTQO&apos;, ip: &apos;192.168.8.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	(No symbol) [0x003EDCE3]
+	(No symbol) [0x003839D1]
+	(No symbol) [0x00294DA8]
+	(No symbol) [0x002B4F6C]
+	(No symbol) [0x002B0D11]
+	(No symbol) [0x002AED19]
+	(No symbol) [0x002E15AE]
+	(No symbol) [0x002E129C]
+	(No symbol) [0x002DACC6]
+	(No symbol) [0x002B6F68]
+	(No symbol) [0x002B80CD]
+	GetHandleVerifier [0x00663832+2506274]
+	GetHandleVerifier [0x00699794+2727300]
+	GetHandleVerifier [0x0069E36C+2746716]
+	GetHandleVerifier [0x00496690+617600]
+	(No symbol) [0x0038C712]
+	(No symbol) [0x00391FF8]
+	(No symbol) [0x003920DB]
+	(No symbol) [0x0039C63B]
+	BaseThreadInitThunk [0x750300C9+25]
+	RtlGetAppContainerNamedObjectPath [0x771D7B4E+286]
+	RtlGetAppContainerNamedObjectPath [0x771D7B1E+238]
+" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 111
+Current browser version is 114.0.5735.199 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-GICMTQO&apos;, ip: &apos;192.168.8.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	(No symbol) [0x003EDCE3]
+	(No symbol) [0x003839D1]
+	(No symbol) [0x00294DA8]
+	(No symbol) [0x002B4F6C]
+	(No symbol) [0x002B0D11]
+	(No symbol) [0x002AED19]
+	(No symbol) [0x002E15AE]
+	(No symbol) [0x002E129C]
+	(No symbol) [0x002DACC6]
+	(No symbol) [0x002B6F68]
+	(No symbol) [0x002B80CD]
+	GetHandleVerifier [0x00663832+2506274]
+	GetHandleVerifier [0x00699794+2727300]
+	GetHandleVerifier [0x0069E36C+2746716]
+	GetHandleVerifier [0x00496690+617600]
+	(No symbol) [0x0038C712]
+	(No symbol) [0x00391FF8]
+	(No symbol) [0x003920DB]
+	(No symbol) [0x0039C63B]
+	BaseThreadInitThunk [0x750300C9+25]
+	RtlGetAppContainerNamedObjectPath [0x771D7B4E+286]
+	RtlGetAppContainerNamedObjectPath [0x771D7B1E+238]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.automationdemo.base.TestBase.initialization(TestBase.java:45)
+	at com.automationdemo.testcases.LogonPageTest.seup(LogonPageTest.java:32)
+</failure>
+    <system-err>Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 22653
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+</system-err>
+  </testcase>
+  <testcase classname="com.automationdemo.testcases.LogonPageTest" name="loginPageLogoTest" time="15.8">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.automationdemo.testcases.LogonPageTest" name="tearDown" time="15.8">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.automationdemo.testcases.HomePageTest" name="seup" time="15.8">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.automationdemo.testcases.HomePageTest" name="homePageTaskLinkTest" time="15.8">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.automationdemo.testcases.HomePageTest" name="tearDown" time="15.8">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.automationdemo.testcases.LogonPageTest" name="seup" time="17.958">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.automationdemo.testcases.LogonPageTest" name="LoginTest" time="17.958">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.automationdemo.testcases.LogonPageTest" name="tearDown" time="17.958">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.automationdemo.testcases.LogonPageTest" name="seup" time="17.958">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.automationdemo.testcases.LogonPageTest" name="LoginTest" time="17.958">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.automationdemo.testcases.LogonPageTest" name="tearDown" time="17.959">
+    <skipped/>
+  </testcase>
+</testsuite>
